@@ -1,5 +1,5 @@
 import {createBrowserRouter} from 'react-router-dom'
-import { MainAuth, Login, MainLayout, Home } from '../pages'
+import { MainAuth, Login, MainLayout, Home, Kanban } from '../pages'
 
 const router = [
     {
@@ -19,6 +19,10 @@ const router = [
                 path: '/',
                 element: <Home />
             },
+            {
+                path: '/kanban',
+                element: <Kanban />
+            }
         ]
     }
 ]

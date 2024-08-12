@@ -43,7 +43,7 @@ export default function index() {
             Calendario
           </Link>
           <Link
-            to={"/"}
+            to={"/kanban"}
             className="text-muted-foreground transition-colors hover:text-foreground"
           >
             Kanban
